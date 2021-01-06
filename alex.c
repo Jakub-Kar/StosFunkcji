@@ -84,7 +84,36 @@ int alex_getLN()
 int isKeyword(char* ident)
 {
 	if (strcmp(ident, "void") == 0) return 1;
+	if (strcmp(ident, "auto") == 0) return 1;
+	if (strcmp(ident, "break") == 0) return 1;
+	if (strcmp(ident, "case") == 0) return 1;
+	if (strcmp(ident, "const") == 0) return 1;
+	if (strcmp(ident, "continue") == 0) return 1;
+	if (strcmp(ident, "default") == 0) return 1;
+	if (strcmp(ident, "do") == 0) return 1;
+	if (strcmp(ident, "double") == 0) return 1;
+	if (strcmp(ident, "else") == 0) return 1;
+	if (strcmp(ident, "enum") == 0) return 1;
+	if (strcmp(ident, "extern") == 0) return 1;
+	if (strcmp(ident, "dloat") == 0) return 1;
+	if (strcmp(ident, "for") == 0) return 1;
+	if (strcmp(ident, "goto") == 0) return 1;
+	if (strcmp(ident, "if") == 0) return 1;
+	if (strcmp(ident, "long") == 0) return 1;
+	if (strcmp(ident, "register") == 0) return 1;
+	if (strcmp(ident, "short") == 0) return 1;
+	if (strcmp(ident, "signed") == 0) return 1;
+	if (strcmp(ident, "sizeof") == 0) return 1;
+	if (strcmp(ident, "static") == 0) return 1;
+	if (strcmp(ident, "struct") == 0) return 1;
+	if (strcmp(ident, "switch") == 0) return 1;
+	if (strcmp(ident, "typedef") == 0) return 1;
+	if (strcmp(ident, "union") == 0) return 1;
+	if (strcmp(ident, "unsigned") == 0) return 1;
+	if (strcmp(ident, "votalite") == 0) return 1;
+	if (strcmp(ident, "while") == 0) return 1;
 	if (strcmp(ident, "int") == 0) return 1;
+	if (strcmp(ident, "char") == 0) return 1;
 	if (strcmp(ident, "return") == 0) return 1;
 	return 0;
 }
